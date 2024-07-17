@@ -1,0 +1,418 @@
+.desktop-logo{
+    width: 26%;
+}
+
+.video-div .video-container{
+    border-radius: 11px 11px 11px 11px!important;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.video-container .tag-video {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: none;
+    background-color: #000;
+}
+.video-pb-20{
+    padding-bottom: 20px;
+}
+.video-pt-20{
+    padding-top: 20px;
+}
+.fun-facts-con.counting-fun{
+    padding-top: 56px;
+    padding-bottom: 65px;
+}
+
+#recipeCarousel{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carousel-wrap {
+  margin: 30px auto;
+  padding: 0 5%;
+  width: 100%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix 
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}*/
+.owl-prev .fa-2x, .owl-next .fa-2x{
+    font-size: 23px;
+    /*color: #d20048;*/
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+     display: block!important; 
+}
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 1.5em !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 100% !important;
+    font-weight: bold;
+    padding: 15px !important;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.owl-carousel .owl-prev:hover,
+.owl-carousel .owl-next:hover {
+    box-shadow: 0px 0px 0px 0px #000;
+    background-color: red !important;
+    color: #fff !important;
+}
+
+.owl-carousel .owl-prev {
+    left: -30px;
+}
+
+.owl-carousel .owl-next {
+    right: -30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: red !important;
+    width: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: red !important;
+    transition: 0.2s ease-in-out;
+}
+.footer-logo{
+    width: 80%;
+}
+.generic-banner-con h1{
+    font-size: 45px;
+    line-height: 50px;
+}
+.about-dad-img img{
+    border-radius: 11px 11px 11px 11px !important;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.core-vaule-con.about-qualification{
+    padding-top: 65px;
+    padding-bottom: 20px;
+}
+.ng-star-inserted span{
+    color: #52656d;
+    font-size: 18px;
+}
+.exclDealPoints .media-col {
+    margin-bottom: 2rem;
+}
+.main-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.our_foundation{
+    background-image: url(../shilpi-img/Group-64-3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our_foundation p{
+    color: #fff;
+    text-align: justify;
+}
+.service-box-con .core-value-img{
+    width: 80%;
+}
+.service-box-inner-con.our_core_value{
+    padding-top: 40px;
+}
+.service-box-con.core_value_box{
+    padding: 50px 0;
+}
+.service-box-item.core_value_service_box{
+    padding: 25px 29px 44px 47px;
+}
+.sticky-sidebar-panel{
+    margin-bottom: 10px;
+    background-color: #fff;
+    background-clip: border-box;
+    /*text-align: center;*/
+    border-radius: 5px;
+/*    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)*/
+}
+.sticky-sidebar-panel .border{
+    border-radius: 5px;
+}
+.four_column a:hover {
+    color: #0056b3;
+    text-decoration: unset;
+}
+.ibu_care_logo_div h4{
+    color: #7bcbc8;
+    line-height: 35px;
+    font-size: 80px;
+}
+.ibu_care_logo_div h4 span{
+    color: #f16c7f;
+}
+
+.sidebar .theiaStickySidebar .widget-title{
+    font-size: 36px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: none;
+    color: #7bcbc8;
+}
+.sidebar .theiaStickySidebar .widget-title span{
+    color: #f16c7f;
+}
+#ibu_care .professional-box-item{
+    padding: 12px 21px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 23%);
+}
+#ibu_care a:hover{
+    text-decoration: none;
+}
+.pt-10{
+    padding-top: 10px;
+}
+
+.theiaStickySidebar ul{
+    padding-top: 18px;
+}
+.ibu_care_logo{
+    width: 10%;
+    margin-right: 24px;
+}
+.ibu_care_main{
+    padding-top: 0px;
+}
+.ibu_care_logo_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ibu_care_main h5{
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 0px;
+}
+.core-vaule-con.about-experience {
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+/*.feature-box-item.our_foundation:hover img{
+    filter: brightness(0) invert(1);
+}*/
+/*.sidebar .widget-categories ul li:hover{
+    
+}*/
+
+.feature-box-item  img{
+    width: 70%;
+}
+.upcoming_activity .quality-system-list ul {
+    width: 49%;
+    float: left;
+    margin-bottom: 26px;
+}
+.womens-title h2 {
+    margin-bottom: 4px;
+}
+.empowering_women{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #d20048bd 0%, #d20048 100%);
+}
+.appointment-btn.foundation_btn{
+    background-color: #fff;
+    color: #D20048;
+}
+.appointment-btn.foundation_btn:hover{
+     background-color: #D20048;
+    color: #fff;
+}
+.empowering_women h2, .empowering_women p{
+    color: #fff;
+}
+.padding-b10{
+    padding-bottom: 30px;
+}
+.blog-posts.ibu_care_page{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.media_title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.media_title h4{
+    font-size: 20px;
+    line-height: 22px;
+    color: #074560;
+}
+.border-radius{
+    border-radius: 10px;
+}
+.our_foundation_div .second_img{
+    position: absolute;
+    top: 17px;
+    right: 0px;
+    left: 43px;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.two_images{
+    position: relative;
+    
+}
+.feature-box-item:hover img.second_img{
+    opacity: 1;
+}
+.feature-box-item:hover img.first_img{
+    opacity: 0;
+}
+.banner_home_div h1{
+    font-size: 52px;
+    line-height: 63px;
+}
+.blog-con.hom_blog_page{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.slider-inner-con.testimonials{
+    margin-bottom: 15px;
+}
+.feedback_three img{
+    width: 30%;
+}
+.work_banner_page {
+    background-color: transparent;
+    background-image: url("../shilpi-img/work_page_banner.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work_banner_page h3{
+    color: #fff;
+}
+.professional-con-padding{
+    padding: 150px 0;
+}
+
+.testimonial_img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;  
+}
+/*toast*/
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+}
+.toast.show {
+    display: block;
+}
+.toast .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+/*toast*/
+
+.post-item .post-item-description .ibucare_details h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-bottom: 16px;
+    letter-spacing: -.1px;
+    color: #D20048;
+  }
+
+  .post-item .post-item-description .ibucare_details h2 a{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-bottom: 16px;
+    letter-spacing: -.1px;
+    color: #D20048;
+  }
+.post-item .post-item-description .ibucare_details p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #52656d;
+  }
+  .sidebar .widget-categories ul li a.currentibucare{
+    color: #78CCCE!important;
+  }
+/* Responsive design custom css */
+@media only screen and (max-width:480px) {
+    .owl-theme .owl-dots .owl-dot {
+	display: none;
+    }
+
+    .owl-carousel .owl-prev,
+    .owl-carousel .owl-next {
+	width: 30px;
+	height: 30px;
+	font-size: 14px !important;
+	top: 45%;
+	box-shadow: 0px 0px 0px 0px #000;
+    }
+
+    .owl-carousel .owl-prev {
+	left: 0px;
+    }
+
+    .owl-carousel .owl-next {
+	right: 0px;
+    }
+}
+
+
+
